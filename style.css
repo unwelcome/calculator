@@ -24,13 +24,26 @@ body{
 }
 
 .calc_screen{
+    box-shadow: 0 0 7px rgb(58, 56, 56);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.screen_memory{
+    text-align: right;
+    font-size: 20px;
+    color:rgb(227, 227, 227);
+    height: 30px;
+    padding: 10px 10px 0 0;
+    border-radius: 20px 20px 0 0;
+}
+
+.screen_main{
     text-align: right;
     font-size: 50px;
     min-height: 60px;
     padding: 1px 10px;
-    box-shadow: 0 0 7px rgb(58, 56, 56);
-    border-radius: 20px;
-    margin-bottom: 10px;
+    border-radius: 0 0 20px 20px;
 }
 
 .button_wrapper{
@@ -67,4 +80,8 @@ body{
 }
 .calc_action{
     background-color: rgba(83, 197, 17, 30%);
+}
+
+.dont_work{
+    background-color: rgb(102, 40, 40);
 }

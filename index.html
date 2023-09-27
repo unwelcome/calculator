@@ -2,24 +2,27 @@
 <html>
 <head>
     <title>Calc</title>
-    <link rel="stylesheet" type="text/css" href="../style.css">
-    <script src="../jquery.min.js"></script>
-    <script src="../script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../calculator/style.css">
+    <script src="../calculator/jquery.min.js"></script>
+    <script src="../calculator/script.js"></script>
 </head>
 <body>
     <div class="wrapper">
-        <div class="calc_screen">0</div>
+        <div class="calc_screen">
+            <div class="screen_memory"></div>
+            <div class="screen_main"></div>
+        </div>
         <div class="button_wrapper">
             <div class="button_row">
-                <button class="calc_button calc_action" id="A">MC</button>
-                <button class="calc_button calc_action">MR</button>
-                <button class="calc_button calc_action">M+</button>
-                <button class="calc_button calc_action">⌫</button>
+                <button class="calc_button calc_action dont_work" id="A">MC</button>
+                <button class="calc_button calc_action dont_work">MR</button>
+                <button class="calc_button calc_action dont_work">M+</button>
+                <button class="calc_button calc_action dont_work">⌫</button>
             </div>
             <div class="button_row">
-                <button class="calc_button calc_action">C</button>
-                <button class="calc_button calc_action">x&sup2;</button>
-                <button class="calc_button calc_action">&radic;x</button>
+                <button class="calc_button calc_action dont_work">C</button>
+                <button class="calc_button calc_action dont_work">x&sup2;</button>
+                <button class="calc_button calc_action dont_work">&radic;x</button>
                 <button class="calc_button calc_action">&divide;</button>
             </div>
             <div class="button_row">
@@ -41,9 +44,9 @@
                 <button class="calc_button calc_action">+</button>
             </div>
             <div class="button_row">
-                <button class="calc_button calc_action">&plusmn;</button>
+                <button class="calc_button calc_action dont_work">&plusmn;</button>
                 <button class="calc_button calc_number">0</button>
-                <button class="calc_button calc_action">,</button>
+                <button class="calc_button calc_action dont_work">,</button>
                 <button class="calc_button calc_action">=</button>
             </div>
         </div>
